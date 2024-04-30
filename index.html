@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SASS course</title>
     <link rel="stylesheet" href="css/index.css">
+    
 </head>
 <body>
 
@@ -431,15 +432,23 @@
             <br><br>
             1) npm init -> to create a package.json file
             <br><br>
-            2) this is the command to run to activate gulpjs -> npm install gulp gulp-sass sass -save-dev
+            2) this is the command to run to activate gulpjs -> npm install gulp gulp-dart-sass sass -save-dev    (gulp-sass is deprecated)
+            <br><br>
+            * gulp is the task runner, gulp-sass is the plugin that will compile sass and sass is the compiler that the gulp-sass plugin will use. And --save-dev means that our packages will be stored into out package.json
+            <br><br>
+            <strong>** you may need to use an updated version of gulp, like gulp-dart-sass</strong>
             <br><br>
             3) create a gulpfile.js file -> check what you wrote in the file
             <br><br>
             4) run -> gulp -> it will create a css folder with the css file inside
             <br><br>
-            gulp is the task runner, gulp-sass is the plugin that will compile sass and sass is the compiler that the gulp-sass plugin will use. And --save-dev means that our packages will be stored into out package.json
+            5) install gulp-purgecss -> npm install gulp-purgecss --save-dev  -> check #purgin & # importing
             <br><br>
-            <strong>** you may need to an updated version of gulp, like gulp-dart-sass</strong>
+            <p>scan your files (HTML, JS, etc.) and match the selectors used in these files with the ones in your CSS files. It then removes the unused CSS selectors to reduce the size of your CSS.
+            </p>
+            <br><br>
+            
+            
 
 
         </p>
