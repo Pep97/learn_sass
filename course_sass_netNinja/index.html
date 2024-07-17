@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SASS course</title>
+    <link rel="stylesheet" href="css/index.css">
+    
+</head>
+<body>
+
+    <nav class="navbar-primary text-white mb-4">
+        <div class="container">
+          <h2 class="site-title">Shinobi CSS</h2>
+          <p>A lightweight CSS library for dev ninjas</p>
+          <a href="homepage.html" style="text-decoration: underline;">Website</a>
+        </div>
+      </nav>
+      <div class="container">
+        <!-- colors -->
+        <h2 class="mb-2">Colors</h2>
+        <span class="text-primary">primary text</span> | 
+        <span class="text-secondary">secondary text</span> | 
+        <span class="text-error">error text</span> | 
+        <span class="text-info">info text</span> | 
+        <span class="text-blue">blue text</span> | 
+        <span class="text-red">red text</span> |
+        <span class="text-green">green text</span> | 
+        <span class="text-yellow">yellow text</span> | 
+        <span class="text-purple">purple text</span> | 
+        <span class="text-orange">orange text</span> | 
+        <span class="text-gray">gray text</span>
+    
+        <br><br>
+    
+        <span class="bg-primary text-white">bg primary</span> |
+        <span class="bg-secondary text-white">bg secondary</span> |
+        <span class="bg-error text-white">bg error</span> |
+        <span class="bg-info text-white">bg info</span> |
+        <span class="bg-blue text-white">bg blue</span> |
+        <span class="bg-red text-white">bg red</span> |
+        <span class="bg-green text-white">bg green</span> |
+        <span class="bg-yellow text-white">bg yellow</span> |
+        <span class="bg-purple text-white">bg purple</span> |
+        <span class="bg-orange text-white">bg orange</span> |
+        <span class="bg-gray text-white">bg gray</span> |
+    
+        <br><br>
+    
+        <span class="bg-primary-dark-8 text-white">primary dark 8</span> |
+        <span class="bg-primary-dark-6 text-white">primary dark 6</span> |
+        <span class="bg-primary-dark-4 text-white">primary dark 4</span> |
+        <span class="bg-primary-dark-2 text-white">primary dark 2</span> |
+        <span class="bg-primary text-white">primary</span> |
+        <span class="bg-primary-light-2 text-white">primary light 2</span> |
+        <span class="bg-primary-light-4 text-white">primary light 4</span> |
+        <span class="bg-primary-light-6 text-white">primary light 6</span> |
+        <span class="bg-primary-light-8 text-white">primary light 8</span> |
+    
+        <br><br>
+        <a href="#" class="text-primary text-hover-orange-light-1">hover me</a>
+    
+        <hr class="mt-4 mb-4">
+    
+        <!-- font sizes -->
+        <h2 class="mb-2">Font Sizes</h2>
+        <div class="font-sm">this is small font</div>
+        <div class="font-md">this is medium font</div>
+        <div class="font-lg">this is large font</div>
+        <div class="font-xl">this is extra large font</div>
+        <div class="font-xxl">this is extra, extra large font</div>
+    
+        <hr class="mt-4 mb-4">
+    
+        <!-- buttons -->
+        <h2 class="mb-2">Buttons</h2>
+        <a href="#" class="btn">default btn</a>
+        <a href="#" class="btn-primary text-white">click me</a>
+        <a href="#" class="btn-secondary text-white">click me</a>
+        <a href="#" class="btn-error text-white">click me</a>
+        <a href="#" class="btn-info">click me</a>
+        <a href="#" class="btn-outlined-purple text-purple text-hover-white">click me</a>
+        <a href="#" class="btn-outlined-orange text-orange text-hover-white">click me</a>
+        <a href="#" class="btn-complement-purple">click me</a>
+        <a href="#" class="btn-complement-primary">click me</a>
+    
+        <hr class="mt-4 mb-4">
+    
+        <!-- cards -->
+        <h2 class="mb-2">Cards</h2>
+        <div class="card">
+          <h1 class="card-title">This is a title</h1>
+          <p class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. In sunt, quo totam aliquam praesentium ducimus tempore sapiente quia nulla optio? Lorem ipsum, dolor sit amet consectetur <a href="">adipisicing elit</a>. Libero laboriosam laborum exercitationem autem commodi voluptas odio aliquid ut velit doloremque minima, quaerat dolores, corporis consequuntur totam nam id veniam maxime.</p>
+        </div>
+    
+        <hr class="mt-4 mb-4">
+    
+        <!-- grid system -->
+        <h2 class="mb-2">Grid System</h2>
+        <div class="row gap-2 justify-center">
+          <div class="col-12-xs col-5-sm col-3-xl">
+            <div class="card">
+              <h3 class="card-title">Hello, ninjas</h3>
+              <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="col-12-xs col-5-sm col-3-xl">
+            <div class="card">
+              <h3 class="card-title">Hello, ninjas</h3>
+              <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="col-12-xs col-5-sm col-3-xl">
+            <div class="card">
+              <h3 class="card-title">Hello, ninjas</h3>
+              <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="col-12-xs col-5-sm col-3-xl">
+            <div class="card">
+              <h3 class="card-title">Hello, ninjas</h3>
+              <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+    
+        <hr class="mt-4 mb-4">
+        
+        <!-- utilities -->
+        <h2>Using Utilities</h2>
+        <div class="mt-2 text-orange-dark-2 bg-orange-light-5 p-2 br-xs">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, perspiciatis!</p>
+        </div>
+        <div class="mt-2 text-secondary-dark-2 bg-secondary-light-5 p-2 br-lg">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, perspiciatis!</p>
+        </div>
+        <div class="display-i-b bg-purple text-white o-10 mt-3 mr-3 p-2">opacity 10</div>
+        <div class="display-i-b bg-purple text-white o-30 mt-3 mr-3 p-2">opacity 30</div>
+        <div class="display-i-b bg-purple text-white o-50 mt-3 mr-3 p-2">opacity 50</div>
+        <div class="display-i-b bg-purple text-white o-70 mt-3 mr-3 p-2">opacity 70</div>
+        <div class="display-i-b bg-purple text-white o-90 mt-3 mr-3 p-2">opacity 90</div>
+    
+        <hr class="mt-4 mb-4">
+    
+      </div>
+
+      <br><br><br>
+      <br><br><br>
+      <br><br><br>
+
+    <div id="partial & import" class="ml-5 mr-5">
+      <h1>#Partial & @import</h1>
+      <p>- Every file started with an _ is a partial file, it won't be compiled to css. many developers due to the fact that may need to convert multiple scss files, modify gulpfile.js to convert all scss with *.scss by using partials, you make sure that the partials won't be converted to css files.</p>
+      <br>
+      <p>- With ctrl+c in the terminal you disinstall gulp</p>
+    </div>
+
+    <div id="math" class="ml-5 mr-5">
+      <h1>#Math</h1>
+      <p> - if you're some math to create a variable you can do it but if you want to use in a property you need to use the math functions,
+      in order to multiply or divide, you need to import 'sass:math' and use the math.div or math.mul functions</p>
+      <br>
+      <p>example -> border-radius: math.div($base-border-radius, 4);</p>
+      <br>
+      <p> - in order to debug, you need to use the @debug directive. You'll be able to see the results in the terminal, like in console.log</p>
+      <br>
+      <p>example -> @debug math.div(10, 3);</p>
+      <br>
+    </div>
+
+    <div id="debug" class="ml-5 mr-5">
+      <h1>#@debug</h1>
+      <br>
+      <p>use map-get to get the value of a key in a map</p>
+      <br>
+      <p>@debug map-get($colors, "green");  -> expected result: Debug: #19e635</p>
+      <br>
+      <p>other exaples:</p>
+      <br>
+      <p>@debug map-get($colors, "green");</p>
+      <p>@debug map-has-key($colors , "secondary" );</p>
+      <p>@debug map-remove($colors, "secondary");</p>
+      <p>@debug map-merge($colors, ("secondary": #1ac886));</p>
+      <br>
+    </div>
+
+    <div id="loop" class="ml-5 mr-5">
+      <h1>#Loop</h1>
+      <p>once it loop through the map, <strong>it will create a class for each key-value pair</strong></p>
+      <br>
+      <p>
+        @each $key, $val in $colors {   <br>
+          .text-#{$key} {  <br>
+            color: $val;  <br>
+          } <br>
+        }
+      </p>
+      <br>
+      <p>for example: .text-primary { color: #326dee; } </p>
+      <br>
+      <p>#{$key} is the selector interpolation</p>
+      <br>
+      <h3>Explaination</h3>
+      <br>
+      <p>The @each directive in SCSS is a control directive that is used to loop through lists and maps.
+      In your code, $colors is expected to be a map where each entry has a key and a value. The @each directive is iterating over each entry in the $colors map, assigning the key of the current entry to the $key variable and the value of the current entry to the $val variable.</p>
+      <br>
+      <p>Then on each iteration of the @each loop, $key would be one of the color names (like "primary", "secondary", etc.) and $val would be the corresponding color value (like #007bff, #6c757d, etc.).</p>
+      <br>
+      <h2>For Loop</h2>
+      <br>
+      <p>@for $i from 1 through 9 {  <br>
+        .text-#{$key}-light-#{$i} {  <br>
+          color: mix(white, $val, $i * 10 * 1%);  <br>
+        }  <br>
+        .text-hover-#{$key}-light-#{$i} {  <br>
+          &:hover {  <br>
+            color: mix(white, $val, $i * 10 * 1%);  <br>
+          }  <br>
+        }  <br>
+        .bg-#{$key}-light-#{$i} {  <br>
+          background-color: mix(white, $val, $i * 10 * 1%);  <br>
+        }  <br>
+      }  <br></p>
+      <br>
+      <div>
+        <button onclick="showExplanation()">Explaination</button>
+        <script>
+          function showExplanation() {
+              var element = document.querySelector(".explaination-forloop");
+      
+              if (element.style.display === "block") {
+                  element.style.display = "none";
+              } else if (element.style.display === "none"){
+                  element.style.display = "block";
+              } else {
+                  element.style.display = "none";
+              }
+          }
+        </script>
+        <p class="explaination-forloop" style="display: none;">
+          <br><br> Here's a breakdown of what the code does:
+      
+        <br><br> @for $i from 1 through 9: This is a loop that iterates 9 times. The variable $i will take on values from 1 to 9 in each iteration.
+      
+        <br><br> .text-#{$key}-light-#{$i}: This line generates a CSS class name by concatenating the string .text-, the value of $key, the string -light-, and the value of $i. For example, if $key is "primary", on the first iteration, the class name would be .text-primary-light-1.
+      
+        <br><br> color: mix(white, $val, $i * 10 * 1%);: This line sets the color of the text for the generated class. It uses the mix() function to mix white with the color stored in $val, with the degree of mixing determined by $i * 10 * 1%. As $i increases, the color becomes lighter.
+      
+        <br><br> .text-hover-#{$key}-light-#{$i} and &:hover: These lines generate a hover effect for the text. When you hover over the text, the color will change according to the mix() function.
+      
+        <br><br> .bg-#{$key}-light-#{$i}: This line generates a CSS class for setting the background color. The background color is set to a lighter variation of the color stored in $val.
+      
+        <br><br> This code is typically used in a larger loop that iterates over a map of color keys and values, where $key is the color name and $val is the color value. The result is a set of CSS classes that you can use to easily apply different shades of your theme colors to text and backgrounds.
+        </p>
+    </div>
+
+    <br>
+    </div>
+
+    <div id="if statement" class="ml-5 mr-5">
+      <h1>#If statement</h1>
+        <br>
+        <p>     @if ( 10 > 5 ){
+          <br>   p{
+          <br>      color: red;
+          <br>      }
+          <br>  } @else {
+          <br>      p{
+          <br>          color: blue;
+          <br>      }
+          <br>  }
+        </p>
+        <br>
+    </div>
+
+    <div id="Pseudo selectors" class="ml-5 mr-5">
+      <h1>#Pseudo selectors</h1>
+      <br>
+      <p>& -> in this case it select the parent</p>
+      <br>  .text-hover-#{$key} {
+      <br>    &:hover {
+      <br>      color: $val;
+      <br>    }
+      <br>  }
+      <br>
+      <p>so, it will be something like this -> .text-hover-$primary:hover{color: $primary}</p>
+      <br>
+      <p>few examples: &:nth-child, &:active, &:visited, &:last-child, etc...</p>
+      <br>
+    </div>
+
+    <div id="@mixin-@extend" class="ml-5 mr-5">
+      <h1># @mixin</h1>
+      <br>
+      <p>Mixin is like an object that you can reuse multiple times, here's an example:</p>
+      <br>
+      <br> @mixin btn($bg-color: #e2e2e2) {
+      <br>   text-decoration: none;
+      <br>   cursor: pointer;
+      <br>   display: inline-block;
+      <br>   border: 0;
+      <br>   padding: $base-padding $base-padding * 2;
+      <br>   border-radius: $base-border-radius;
+      <br>   background-color: $bg-color;
+      <br> }
+      <br> 
+      <br> .btn {
+      <br>   @include btn;
+      <br> }
+
+      <h1># @extend</h1>
+      
+      <br> @extend is similar to @mixin, but without the need to pass arguments.
+      <br> it is complied in css into a different way than @mixin. -> min.3:40 (#18)
+      <p>example: </p>
+      <br> %flex-layout {
+      <br>   width: 100%;
+      <br>   display: flex;
+      <br>   align-items: center;
+      <br>   justify-content: space-between;
+      <br>   box-sizing: border-box;
+      <br> }
+      <br> .navbar {
+      <br>   @extend %flex-layout; // this will apply the %flex-layout to the navbar class
+      <br>   padding: $base-padding $base-padding * 2;
+      <br>   box-shadow: $base-box-shadow;
+      <br>   .site-title {
+      <br>     font-size: $font-size-lg;
+      <br>   }
+      <br>   .container {
+      <br>     @extend %flex-layout;
+      <br>   }
+      <br> }
+      <br>
+    </div>
+
+    <div id="functions" class="ml-5 mr-5">
+      <h1> # Function</h1>
+      <br>
+      <p>
+        <br> @function light-comp($color) {
+        <br> $complement: complement($color);
+        <br> $light-complement: lighten($complement, 30%);
+        <br> @return $light-complement;
+        <br> }
+      </p>
+      <br>
+      <h3>explainiation</h3>
+      <br>
+      <p>$complement: complement($color);: This line uses the built-in complement() function to get the complement of the input color. The complement of a color is the color directly opposite it on the color wheel, which results in a high contrast color.
+        <br>
+        <br> $light-complement: lighten($complement, 30%);: This line uses the built-in lighten() function to lighten the complement color by 30%. The lighten() function increases the lightness of a color in the HSL color space by a certain percentage.
+         <br>
+        <br> @return $light-complement;: This line returns the resulting light complement color. This is the value that will be output when the light-comp() function is called.
+         <br>
+        <br> So, if you call light-comp(#0000ff), the function will calculate the complement of #0000ff (which is #ffff00), lighten that complement by 30%, and then return the resulting color.</p>
+      <br>
+    </div>
+
+    <div id="utility classes" class="ml-5 mr-5">
+      <h1># Utility classes</h1>
+      <br>
+      <p>you can generate all your utilities and then just apply the correct class while you're coding</p>
+      <br>
+      <p>check utility file, short example</p>
+      <br><br> $property -> padding
+      <br><br> $map -> ("prefix": "p", "values": ("0": 0, "1": $base-padding, "2": $base-padding * 2, "3": $base-padding * 4, "4": $base-padding * 6, "5": $base-padding * 8))
+      <br><br> $k -> stands for value -> "1"
+      <br><br> $v -> stands for key -> $base-padding
+      <br><br> outcome generated -> .p-1{padding: 1rem;}
+      <br>
+    </div>
+
+    <div id="breakpoints" class="ml-5 mr-5">
+      <h1># Breakpoints</h1>
+      <br>
+      <p>this is an example, to get the full view watch the code</p>
+      <br> @mixin xs {
+      <br>   @media (min-width: map-get($breakpoints, "xs")) {
+      <br>     @content; // @content is a special directive that allows you to pass the content block of a mixin to the mixin body.
+      <br>     // meaning that you can pass other "xs" in other scss files and it will be compiled to css.
+      <br>   }
+      <br> }
+      <br>
+    </div>
+
+    <div id="purging" class="ml-5 mr-5">
+      <h1># Purging</h1>
+      <br>
+      <p>purging is a way to remove all the unused css classes, in order to do that you need to install a package called purgecss</p>
+      <br>
+      <p>use this command -> npm install gulp-purgecss --save-dev</p>
+      <br>
+      <br><p>then add "const purgecss = require('gulp-purgecss') into your gulpfile.js</p>
+      <br><p>in buldStyles add ".pipe(purgecss({content: ['*html']}))" -> content property tells the plugin which files to look in to determine what css rules we're actually using for our website</p>
+      <br><p>then run again "gulp" in the terminal</p>
+      <br><p>update this so that, every time you modify something it will be updated. -> function watchTask() {
+        watch(['sass/**/*.scss', '*.html'], buildStyles)
+      }</p>
+      <br><p>then run again "gulp" in the terminal</p>
+
+    </div>
+
+    <div id="importing" class="ml-5 mr-5">
+      <h1># Importing Shinobi</h1>
+      <br>
+      <p>you can exporting everything and re-using the code into another project -> @import 'shinobi';</p>
+      <br>
+      <p>in order for you to change a value from a new scss file to shinobi, you need to use "!default" in shinobi. -> this will to whatevery value you're applying !default to use the value in shinobi unless there is another value already declared. in this case you'll be able to declare your value before and then import, during the import your value won't be overwritten and be used.</p>
+      <br>
+    </div>
+
+    
+<br><br><br>
+<br><br><br>
+<br><br><br>
+
+<div class="container-text">
+    <div class="container-text1">
+        <p>
+            link to the <a href="https://www.youtube.com/watch?v=Sk5jMurFHCo&list=PL4cUxeGkcC9jxJX7vojNVK-o8ubDZEcNb&index=2" >course</a>
+            <br><br>
+            🐱‍💻 SASS docs <a href="https://sass-lang.com/documentation">here</a> 
+            <br><br>
+            Sass has to be complied into CSS so you have to use gulpjs and nodejs.
+            <br><br>
+            You'll use gulpjs to compile your sass into css and nodejs to install gulpjs.    
+            <br><br>
+            extention: live sass compiler -> watch sass -> compile sass -> css  (by default it will use gulpjs)  
+            <br><br>
+            1) npm init -> to create a package.json file
+            <br><br>
+            2) this is the command to run to activate gulpjs -> npm install gulp gulp-dart-sass sass -save-dev    (gulp-sass is deprecated)
+            <br><br>
+            * gulp is the task runner, gulp-sass is the plugin that will compile sass and sass is the compiler that the gulp-sass plugin will use. And --save-dev means that our packages will be stored into out package.json
+            <br><br>
+            <strong>** you may need to use an updated version of gulp, like gulp-dart-sass</strong>
+            <br><br>
+            3) create a gulpfile.js file -> check what you wrote in the file
+            <br><br>
+            4) run -> gulp -> it will create a css folder with the css file inside
+            <br><br>
+            5) install gulp-purgecss -> npm install gulp-purgecss --save-dev  -> check #purgin & # importing
+            <br><br>
+            <p>scan your files (HTML, JS, etc.) and match the selectors used in these files with the ones in your CSS files. It then removes the unused CSS selectors to reduce the size of your CSS.
+            </p>
+            <br><br>
+            
+            
+
+
+        </p>
+    </div>
+
+    <div class="container-text2 ">
+        <p>
+        SASS (Syntactically Awesome Stylesheets) is a CSS preprocessor that provides features not available in plain CSS. Here are some key features that SASS offers:
+        <br><br>
+        Variables: SASS allows you to define variables that can be reused throughout your stylesheet.
+        <br><br>
+        Nesting: SASS lets you nest your CSS selectors in a way that follows the same visual hierarchy of your HTML.
+        <br><br>
+        Mixins: These are like functions for CSS. You can define a mixin once and then reuse it throughout your stylesheet, even passing in different arguments each time.
+        <br><br>
+        Inheritance (Extend/Inherit): SASS provides a way to share a set of CSS properties from one selector to another.
+        <br><br>
+        Operators: SASS supports standard math operators like +, -, *, /, and %.
+        <br><br>
+        Control Directives: SASS provides control directives for libraries, such as @if, @for, @each, and @while.
+        <br><br>
+        Importing: SASS provides a more powerful @import that helps you to split your CSS into smaller, more maintainable portions.
+        <br><br>
+        Functions: SASS provides many built-in functions for manipulating colors and other values.
+        <br><br>
+        Partials and Modules: You can create partial SASS files that contain little snippets of CSS that you can include in other SASS files.
+        <br><br>
+        These features make SASS a powerful tool for writing more maintainable, scalable, and DRY (Don't Repeat Yourself) CSS.
+        </p>
+    </div>  
+    
+</div>
+
+</body>
+</html>
